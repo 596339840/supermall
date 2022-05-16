@@ -1,14 +1,16 @@
 <template>
   <div>
-      <h1>123</h1>
+      <router-view></router-view>
+      <main-tab-bar />
   </div>
 </template>
 
 <script>
-
+import MainTabBar from 'components/content/MainTabBar'
 export default {
   name: 'App',
   components: {
+    MainTabBar
   }
 }
 </script>
